@@ -1,0 +1,109 @@
+/* App */
+.App{
+  background-color: #ccc;
+  height: 100vh;
+}
+
+/* Quikly Center Everything In Div */
+.cfb{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container Styling */
+.Container{
+  position: relative; 
+  width: 75%;
+  height: 75%;
+  box-shadow: 1px 2px 2px #000;
+  border: 0.1em solid #000;
+  border-radius: 0.5em;
+  background-color: #eee; 
+}
+
+/* Banner Side of Container */
+.banner-side{
+  position: absolute;
+  z-index: 2;
+  right: 50%;
+  border: 0.1em solid #000;
+  width: 50%;
+  height: 100%;
+  flex-direction: column;
+  background-color: #5abf60;
+  opacity: 1;
+  color: #fff;
+  text-align: center;
+  transition: 2s;
+}
+
+/* Form Side of Container */
+.form-side{
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  border: 0.1em solid #000;
+  width: 50%;
+  height: 100%;
+  background-color: #fff;
+  opacity: 1;
+  font-weight: bold;
+  color: #5abf60;
+  transition: 2s;
+}
+
+.send-right{
+  right: 0;
+}
+
+.send-left{
+  right: 50%;
+}
+
+
+/* Layout styling of forms, labels, inputs */
+.form-comp{
+  flex-direction: column;
+}
+
+.sign-up-form{
+  width: 50%;
+  flex-direction: column;
+}
+
+.sign-up-form > label{
+  padding: 0.5em;
+  width: 100%
+}
+
+.sign-up-form > label > input{
+  width: 100%
+}
+
+
+/* All Buttons Styling */
+button {
+  padding: 1em;
+  border: 1px solid #fff;
+  border-radius: 5em;
+  background-color: #5abf60;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+button:focus {
+  outline: 0;
+}
+
+button:hover{
+  opacity: 0.9;
+}
+
+/* All Inputs Styling */
+input {
+  padding: 0.5em;
+  border: 1px solid #5abf60;
+}
